@@ -3,12 +3,14 @@
 
 <head>
 <title>Edu Tech</title>
-<link rel="stylesheet" type="text/css" href="edu tech.css">
+<link rel="stylesheet" type="text/css" href="edutech.css">
 <link href= "dist/css/bootstrap.css" rel= "stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
 <div class='jumbotron'>
 <div class="container">
 <div class='row'>
@@ -16,7 +18,6 @@
 	<h1>Edu Tech</h1>
 	</div>
 <div class="col-sm-4">
-<img src='https://image.freepik.com/free-icon/graduation-cap-variant_318-47155.jpg' class='imgcap'>
 </div>
 </div>
 </div>
@@ -38,21 +39,23 @@
 
 
     <form role='form'>
-      <label for="email">Sign Up Here</label>
-      <input type="text" name="email" >
-      <button type="submit" class='btn btn-success'>Send</button>
+      <input name="email" title="Please enter your email address" value="Start now..." maxlength="128" class="headerFormInput clearValue" id="emailNewsletter">
+      <button type="submit" class='btn btn-success' id='send'>Send</button>
     </form>
 
 
 
+
+
     <div id='social-buttons'>
-      <button class='btn btn-lg''btn-twitter'>Twitter</button>
-      <button class='btn btn-lg''btn-facebook'>Facebook</button>
-      <button class='btn btn-lg''btn-pinterest'>Pinterest</button>
+      <button class='btn btn-md''btn-twitter'>Twitter</button>
+      <button class='btn btn-md''btn-facebook'>Facebook</button>
+      <button class='btn btn-md''btn-pinterest'>Pinterest</button>
     </div>
  
 
 <script src="jquery-2.2.3.js"></script>
+<script src="edutech.js"></script>
 </body>
 
 

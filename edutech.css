@@ -1,19 +1,57 @@
+body
+{
+	font-family: 'Indie Flower' !important;
+}
+
 #edutech
 {
-	color: #3fcab4;
-	font-size: 25px;
-	text-align: center;
-}
-#cap
-{
-	width: 140px;
-	height: 140px;
+	color: white;
+	text-align: left;
+	padding-bottom: 200px;
 }
 .imgcap
 {
 	width: 140px;
 	height: 140px;
 }
+.jumbotron{
+	background: url(background.jpg);
+	background-position: center;
+	background-size: contain;
+}
 ul{
 	padding:10px;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+}
+li{
+	display: inline-block;
+	padding: 0px 10px 0px 10px
+}
+a{
+	color: white !important;
+}
+a:hover {
+	color: orange !important;
+}
+#intro
+{
+	text-align: center;
+ }
+
+#social-buttons
+{
+	color: white;
+	background: #3fcab4;
+	text-align: center;
+}
+#emailNewsletter
+{
+	padding: 0 0 0 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+#send
+{
+	margin-bottom: 10px
 }
