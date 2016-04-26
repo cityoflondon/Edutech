@@ -32,7 +32,16 @@ a{
 	color: white !important;
 }
 a:hover {
-	color: orange !important;
+	color: blue !important;
+}
+article {
+	color: rgb(25, 51, 76);
+	background color: #19334C;
+	padding: 10px;
+	line-height: 28px;
+	text-align: center;
+	bottom: 0;
+	margin: 0;
 }
 #intro
 {
