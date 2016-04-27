@@ -2,17 +2,21 @@ body
 {
 	font-family: 'Indie Flower' !important;
 }
-
+  .carousel-inner img {
+      /*-webkit-filter: grayscale(90%);*/
+      /*filter: grayscale(90%);  make all photos black and white  */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height: 200px;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
 #edutech
 {
 	color: white;
 	text-align: left;
 	padding-bottom: 200px;
-}
-.imgcap
-{
-	width: 140px;
-	height: 140px;
 }
 .jumbotron{
 	background: url(background.jpg);
@@ -50,8 +54,7 @@ article {
 #intro
 {
 	text-align: center;
- }
-
+}
 #social-buttons
 {
 	color: white;
