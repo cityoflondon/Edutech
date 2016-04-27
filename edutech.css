@@ -93,3 +93,14 @@ article {
 	width: 100%;
 	position: absolute;
 }
+#aboutus {
+		color: black;
+        text-align: center;
+        background-image: url("https://image.freepik.com/free-vector/torn-paper-background_23-2147514344.jpg");
+        background-size: auto;
+        background-position: center;
+        margin-right: 40px;
+        margin-left: 40px;
+        
+  }
+
