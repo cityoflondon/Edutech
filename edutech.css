@@ -44,7 +44,10 @@ li{
 	padding: 0px 10px 0px 10px
 }
 a{
-	color: white !important;
+	color: white;
+}
+nav a {
+	color: #333;
 }
 a:hover {
 	color: blue !important;
@@ -62,6 +65,9 @@ article {
 {
 	text-align: center;
 	font-size: 22px;
+}
+#intro a {
+	color: #fff;
 }
 #social-buttons
 {
@@ -103,4 +109,3 @@ article {
         margin-left: 40px;
         
   }
-
